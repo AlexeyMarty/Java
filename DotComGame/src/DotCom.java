@@ -1,18 +1,18 @@
 /**
- * 
+ *
  */
 
 import java.util.ArrayList;
 
 public class DotCom {
-    private ArrayList<System> locationCells;
+    private ArrayList<String> locationCells;
     private String name;
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setLocationCells(ArrayList<System> locationCells) {
+    public void setLocationCells(ArrayList<String> locationCells) {
         this.locationCells = locationCells;
     }
 
