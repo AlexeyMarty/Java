@@ -16,6 +16,7 @@ public class TestPhoneBook {
         PhoneBook phoneBook = new PhoneBook();
 
         phoneBook.addContact("Иванов","79208980888");
+        phoneBook.addContact("Скворцов","79208980888");
         phoneBook.addContact("Сидоров","79205580888");
         phoneBook.addContact("Сидоров","792055280888");
         phoneBook.addContact("Желыбин","79208965988");

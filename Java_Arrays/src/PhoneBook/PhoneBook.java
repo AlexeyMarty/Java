@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class PhoneBook {
+    //создаем карту для хранения ключей и значений
     private HashMap<String, HashSet<String>> contactList = new HashMap<>();
     //метод добавления контакта
     public void addContact(String title, String phone) {
